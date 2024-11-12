@@ -32,7 +32,7 @@ const SearchBarComponent = ({ func }) => {
 		if (location === "") return;
 		try {
 			const response = await axios.get(
-				"http://api.weatherapi.com/v1/current.json?key=" +
+				"https://api.weatherapi.com/v1/current.json?key=" +
 					apiKey +
 					"&q=" +
 					location
